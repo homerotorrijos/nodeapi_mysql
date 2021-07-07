@@ -1,0 +1,32 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "MySQL connect to Nodejs API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homerotorrijos/nodeapi_mysql.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "API",
+    "MySQL",
+    "Programming"
+  ],
+  "author": "Homero Torrijos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homerotorrijos/nodeapi_mysql/issues"
+  },
+  "homepage": "https://github.com/homerotorrijos/nodeapi_mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.9"
+  }
+}
